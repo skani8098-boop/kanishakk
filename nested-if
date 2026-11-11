@@ -1,0 +1,25 @@
+nested if-else
+
+package kanishka;
+
+public class nested {
+
+	public static void main(String[] args) {
+		String username="Kani";
+	String password="Kani123";
+	if (username=="Kani") 
+		{
+			System.out.println("User verified");
+			if (password=="Kani123") 
+			{
+			  System.out.println("Pass verified");
+		  }
+			else 
+			{
+				System.out.println("Incorrect pass");
+				}
+			}
+		 else{
+			System.out.println("Incorrect username");		}
+	}
+}
