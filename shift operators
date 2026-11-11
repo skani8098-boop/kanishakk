@@ -1,0 +1,21 @@
+package kanishka;
+
+
+public class shift {
+
+	public static void main(String[] args) {
+				//Left shift
+				int a=5;
+				System.out.println(a<<1);
+				System.out.println(a<<2);
+			//Right Shift
+				System.out.println(a>>1);
+				System.out.println(a>>2);
+				//Unsigned Right shift
+				int b=-8;
+				System.out.println(b>>>1);
+				System.out.println(a>>>1);
+
+	}
+
+}
